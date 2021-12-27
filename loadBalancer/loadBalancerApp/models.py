@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+
+class Bit(models.Model):
+    ReplicaBit = models.IntegerField(default=0)
+
+
+
+
+
